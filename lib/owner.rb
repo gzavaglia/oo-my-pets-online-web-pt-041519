@@ -74,6 +74,6 @@ class Owner
     fish_count = @pets[:fishes].length
     dog_count = @pets[:dogs].length
     
-    list = "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)"
+    list = "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
 end
