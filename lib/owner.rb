@@ -68,4 +68,10 @@ class Owner
     end 
     @pets.clear
   end
+  
+  def list_pets
+    @pets.each do |type, pet_name|
+      
+    end 
+  end
 end
