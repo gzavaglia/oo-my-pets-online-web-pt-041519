@@ -66,5 +66,6 @@ class Owner
     pet_array.each do |baby|
       baby.mood = "nervous"
     end 
+    @pets.clear
   end
 end
