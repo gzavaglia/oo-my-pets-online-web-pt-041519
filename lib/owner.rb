@@ -63,5 +63,7 @@ class Owner
   
   def sell_pets
     pet_array = @pets.values.flatten
-    
+    pet_array.each do |baby|
+      baby.mood = "nervous"
+    end 
 end
